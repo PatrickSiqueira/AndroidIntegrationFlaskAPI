@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.NewConsoleActivity">
+    <!--NOME CONSOLE -->
+    <EditText
+        android:id="@+id/editName"
+        android:hint="Nome do Console"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <!--STATUS CONSOLE -->
+    <EditText
+        android:id="@+id/editStatus"
+        android:hint="Status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <!--QUANTIDADE GAMES CONSOLE -->
+    <EditText
+        android:id="@+id/editGames"
+        android:inputType="number"
+        android:hint="Games Lanc."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <!--LANÇAMENTO CONSOLE -->
+    <EditText
+        android:id="@+id/editYear"
+        android:inputType="number"
+        android:hint="Ano de Lançamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <!--PREÇO CONSOLE -->
+    <EditText
+        android:id="@+id/editPrice"
+        android:inputType="numberDecimal"
+        android:hint="Preço"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <!--SALVAR CONSOLE -->
+    <Button
+        android:text="Salvar"
+        android:onClick="saveConsole"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
